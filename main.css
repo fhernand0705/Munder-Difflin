@@ -1,0 +1,18 @@
+body {
+  background-color: rgba(238, 234, 234, 0.95);
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+ul li {
+  display: inline;
+  font-family: sans-serif;
+  padding: 1%;
+  text-decoration: none;
+
+}
