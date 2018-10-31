@@ -52,7 +52,7 @@ p {
 
 #grid {
   display: grid;
-  grid-template: 80% 80% / 40% 40%;
+  grid-template: 65% 65% / 35% 35%;
   grid-gap: 20px;
   justify-content: center;
   margin-top: 10%;
@@ -62,7 +62,7 @@ p {
 .block {
  background-color: white;
  border-radius: 10px;
- opacity: .5;
+ opacity: .3;
  position: relative;
  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
  transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -87,11 +87,14 @@ p {
 }
 
 .block p {
-  display: inline-block;
-  color: black;
+  color: rgba(130, 130, 130, 0.9);
+  text-align: center;
+  margin-top: 20%;
+  font-size: 20px;
 
 }
 
 .block h1 {
-  
+  text-align: center;
+  color: rgba(58, 77, 177, 0.9);
 }
