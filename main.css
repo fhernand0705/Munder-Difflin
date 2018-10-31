@@ -2,7 +2,7 @@ body {
   background-color: rgba(167, 181, 253, 0.45);
 }
 
-ul li {
+nav ul li {
   display: inline;
   font-family: sans-serif;
   padding: 1%;
@@ -52,7 +52,7 @@ p {
 
 #grid {
   display: grid;
-  grid-template: 200% 200% / 45% 45%;
+  grid-template: 80% 80% / 40% 40%;
   grid-gap: 20px;
   justify-content: center;
   margin-top: 10%;
@@ -84,4 +84,14 @@ p {
 
 .block:hover::after {
   opacity: 1;
+}
+
+.block p {
+  display: inline-block;
+  color: black;
+
+}
+
+.block h1 {
+  
 }
