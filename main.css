@@ -1,6 +1,16 @@
+html {
+  background-image: url(back2-image.jpeg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-  background-color: rgba(167, 181, 253, 0.45);
+  background-color: rgba(232, 236, 255, 0.53);
   font-family: 'Questrial', sans-serif;
+  margin: -16px;
+
 }
 
 nav ul li {
@@ -29,20 +39,22 @@ li a {
   color: rgba(58, 77, 177, 0.9);
 }
 
+nav p {
+  color: rgba(255, 255, 255, 1);
+  margin-left: 11%;
+}
+
 section > h1 {
   color: rgba(255, 255, 255, 1);
   text-align: center;
 
 }
 section {
-  color: rgba(255, 255, 255, 1);
-  border-radius: 5px;
   height: 75px;
   margin-top: 5%;
   margin-left: 4%;
   margin-right: 4%;
   text-align: center;
-  font-size: 20px;
 
 }
 
@@ -51,14 +63,14 @@ section {
   grid-template: 65% 65% / 35% 35%;
   grid-gap: 20px;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 4%;
 
 }
 
 .block {
  background-color: white;
  border-radius: 10px;
- opacity: .3;
+ opacity: .5;
  position: relative;
  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
  transition: .5s;
@@ -66,7 +78,6 @@ section {
 
 .block::after {
  position: absolute;
- opacity: 1;
  border-radius: 5px;
  box-shadow: 5px 15px rgba(0,0,0,0.3);
 }
@@ -92,15 +103,16 @@ section {
 }
 
 footer {
-  margin-top: 5%;
-  padding-bottom: 0%;
+  margin-top: 1%;
+  padding-bottom: 1%;
   text-align: center;
   color: rgba(58, 77, 177, 0.9);
   line-height: 20px;
 }
 
-h2 a {
+footer a {
   text-decoration: none;
+  color: rgba(58, 77, 177, 0.9);
 }
 
 .icon1 img {
