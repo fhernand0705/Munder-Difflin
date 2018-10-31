@@ -99,3 +99,15 @@ p {
   text-align: center;
   color: rgba(58, 77, 177, 0.9);
 }
+
+footer {
+  margin-top: 25%;
+  padding-bottom: 15px;
+  text-align: center;
+  color: rgba(58, 77, 177, 0.9);
+  line-height: 25px;
+}
+
+footer h3 {
+  text-decoration: none;
+}
