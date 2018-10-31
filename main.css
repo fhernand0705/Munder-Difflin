@@ -1,10 +1,10 @@
 body {
   background-color: rgba(167, 181, 253, 0.45);
+  font-family: 'Questrial', sans-serif;
 }
 
 nav ul li {
   display: inline;
-  font-family: sans-serif;
   padding: 1%;
   text-decoration: none;
 }
@@ -42,12 +42,8 @@ section {
   margin-left: 4%;
   margin-right: 4%;
   text-align: center;
-
-}
-
-p {
-  color: rgba(255, 255, 255, 1);
   font-size: 20px;
+
 }
 
 #grid {
@@ -64,9 +60,8 @@ p {
  border-radius: 10px;
  opacity: .3;
  position: relative;
- box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
- transition: .4s;
-
+ box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+ transition: .5s;
 }
 
 .block::after {
@@ -74,24 +69,20 @@ p {
  opacity: 1;
  border-radius: 5px;
  box-shadow: 5px 15px rgba(0,0,0,0.3);
- transition: opacity 1s ease-in-out;
 }
 
 .block:hover {
-  transform: scale(1.05, 1.05);
-  opacity: 1;
-}
-
-.block:hover::after {
+  transform: scale(1.05, 1.05); /*value: height, width*/
   opacity: 1;
 }
 
 .block p {
-  color: rgba(130, 130, 130, 0.9);
+  color: rgba(65, 65, 65, 0.95);
   text-align: center;
-  margin-top: 20%;
+  margin-top: 12%;
   font-size: 20px;
   line-height: 30px;
+
 
 }
 
@@ -101,13 +92,24 @@ p {
 }
 
 footer {
-  margin-top: 25%;
-  padding-bottom: 15px;
+  margin-top: 5%;
+  padding-bottom: 0%;
   text-align: center;
   color: rgba(58, 77, 177, 0.9);
-  line-height: 25px;
+  line-height: 20px;
 }
 
-footer h3 {
+h2 a {
   text-decoration: none;
+}
+
+.icon1 img {
+  width: 3.5%;
+  margin-top: 20%;
+  margin-left: 48%;
+}
+
+.icon2 img {
+  width: 3.5%;
+  margin-left: 48%;
 }
